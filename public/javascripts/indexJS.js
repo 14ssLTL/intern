@@ -1,4 +1,4 @@
-var serverHttp = "http://118.25.50.78:3000/";
+var serverHttp = "http://118.25.50.78:3001/";
 
 function requestServer (){
     $.post(serverHttp,{"a":1,"b":2},function(rs){
